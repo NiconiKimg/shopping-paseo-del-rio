@@ -1,0 +1,4 @@
+{
+  "*.php": ["php vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php"],
+  "*.{js,mjs,cjs,json,css,scss,md,yml,yaml}": ["prettier --write"]
+}
